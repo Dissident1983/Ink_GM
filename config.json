@@ -1,0 +1,22 @@
+{
+    "rpc_url": "https://rpc-gel.inkonchain.com",
+    "chain_id": 57073,
+    "gm_contract_address": "0x9F500d075118272B3564ac6Ef2c70a9067Fd2d3F",
+    "max_retries": 3,
+    "retry_delay": 5,
+    "gas_price_multiplier": 1.1,
+    "max_gas_price_gwei": 50,
+    "delay_between_wallets": {
+        "enabled": true,
+        "min_seconds": 30,
+        "max_seconds": 80
+        },
+    "wallets": [
+        {
+            "address": "",
+            "private_key": "",
+            "proxy": "http://"
+        },
+        
+    ]
+}
